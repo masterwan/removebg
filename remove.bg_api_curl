@@ -1,0 +1,6 @@
+curl -H 'X-API-Key: nzXfgViGvHsSJhCrPw8TijJ2'           \
+       -F 'image_file=@/home/idealsp/Downloads/photo_2019-04-15_18-10-34.jpg'                 \
+       -F 'size=auto'                                     \
+       -f https://api.remove.bg/v1.0/removebg -o no-bg.png
+
+       
